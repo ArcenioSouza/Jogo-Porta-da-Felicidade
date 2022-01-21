@@ -15,7 +15,7 @@ export const atualizarPortas = (portas: PortaModel[], portaModificada: PortaMode
      if(igualAModificada){
         return portaModificada
      } else {
-        return portaAtual
+        return portaModificada.aberta ? portaAtual : portaAtual.desselecionar()
      }
   })
 };
