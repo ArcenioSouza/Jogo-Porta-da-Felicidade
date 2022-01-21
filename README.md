@@ -10,4 +10,6 @@ Pode ser usado para sortear algo também ou até para tomar uma descisão aleat�
 
 - [ ] Treinar TypeScript no NextJS;
 
+- [ ] Treinar a criação de models com Typescript e o uso deles no NextJS;
+
 - [ ] ...
