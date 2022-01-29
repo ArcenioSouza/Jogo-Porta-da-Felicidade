@@ -1,16 +1,9 @@
-import { useState } from "react";
-import Porta from "../components/porta/Porta";
-import Presente from "../components/presente/Presente";
-import { atualizarPortas, criarPortas } from "../functions/portas";
-import PortaModel from "../model/porta";
+import Cartao from "../components/cartao/Cartao";
 
-export default function Home() {
-
-  
-
+export default function Form() {
   return (
     <div style={{display: "flex"}}>
-      <h1>Inicio do Jogo</h1>
+      <Cartao/>
     </div>
   )
 }
