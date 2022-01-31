@@ -6,7 +6,7 @@ Pode ser usado para sortear algo também ou até para tomar uma descisão aleat�
 
 <div align="center">
 
-   <img src="./assets/img/tela_inicial.PNG" width="150px" height="150px">
+   <img src="./assets/img/tela_inicial.PNG" width="250px" height="250px">
 
 </div>
 
