@@ -6,11 +6,11 @@ Pode ser usado para sortear algo também ou até para tomar uma descisão aleat�
 
 <div align="center">
 
-   ![Imagem1 - Tela inicial](./.next/cache/images/tela_inicial.PNG)
+   ![Imagem1 - Tela inicial](./assets/img/tela_inicial.PNG)
 
 </div>
 
-![Imagem2 - Portas](./.next/cache/images/portas.PNG)
+![Imagem2 - Portas](./assets/img/portas.PNG)
 
 # Objetivos
 
