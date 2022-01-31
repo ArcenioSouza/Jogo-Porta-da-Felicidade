@@ -5,7 +5,7 @@ import { atualizarPortas, criarPortas } from "../../../functions/portas";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const jogo = () => {
+const Jogo = () => {
    const router = useRouter();
    const [portas, setPortas] = useState([]);
    const [valido, setValido] = useState(false)
@@ -18,7 +18,7 @@ const jogo = () => {
       const temPresenteValido = temPresente >=1 && temPresente <= portas
       
       setValido(qtdPortasValidas && temPresenteValido)      
-   }, [portas]);
+   }, [portas, router.query.portas, router.query.temPresente]);
 
    useEffect(() => {
       const portas = +router.query.portas;
@@ -49,7 +49,7 @@ const jogo = () => {
             }
          </div>
          <div className={styles.botoes}>
-            <Link href="/">
+            <Link href="/" passHref>
                <button>Reiniciar Jogo</button>
             </Link>
          </div>
@@ -57,4 +57,4 @@ const jogo = () => {
    );
 };
 
-export default jogo;
+export default Jogo;
