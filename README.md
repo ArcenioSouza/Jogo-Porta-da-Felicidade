@@ -14,23 +14,23 @@ Pode ser usado para sortear algo também ou até para tomar uma descisão aleat�
 
 # Objetivos
 
-- [ok] Aprender a usar o NextJS;
+- [x] Aprender a usar o NextJS;
 
-- [ok] Treinar TypeScript no NextJS;
+- [x] Treinar TypeScript no NextJS;
 
-- [ok] Treinar a criação de models com Typescript e o uso deles no NextJS;
+- [x] Treinar a criação de models com Typescript e o uso deles no NextJS;
 
-- [ok] Treinar o uso de CSS modules;
+- [x] Treinar o uso de CSS modules;
 
-- [ok] Treinar o uso de forms controlados;
+- [x] Treinar o uso de forms controlados;
 
-- [ok] Treinar o uso de props;
+- [x] Treinar o uso de props;
 
-- [ok] Treinar o uso de interfaces;
+- [x] Treinar o uso de interfaces;
 
-- [ok] Aprender a usar parâmetros passados através da url;
+- [x] Aprender a usar parâmetros passados através da url;
 
-- [ok] Treinar a mudança de estilo CSS através de props.
+- [x] Treinar a mudança de estilo CSS através de props.
 
 # Créditos
 
